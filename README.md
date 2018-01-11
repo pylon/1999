@@ -17,7 +17,7 @@ The experiment had a two-fold purpose:
 1. Proof of concept for in-browser companion voice support using react.
 2. Explore built-in browser support for Web Speech API vis-á-vis a single controlled implementation.
 
-### Web API Support
+### Web Speech API Support
 
 Browser | OS  | ASR | TTS | Status
 --- | --- | --- | ------ | -------
@@ -34,7 +34,7 @@ Safari docs say that Web Speech API is fully supported, but that is a lie.
 
 Most places say Firefox supports Web Speech API, but that is a lie too.
 
-Chrome [probably uses a Google ASR service](https://www.chromium.org/developers/how-tos/api-keys).
+Chrome [probably uses a Google ASR service](https://www.chromium.org/developers/how-tos/api-keys). However, a Chromium contributor warns that there is discussion about [deprecating Web Speech API](https://groups.google.com/a/chromium.org/d/msg/chromium-dev/mUe4NM5xEzk/fL0pIvEACQAJ).
 
 ### Backend
 
