@@ -25,8 +25,9 @@ Safari | macOS | ❌ | ✅ | [Partial Supported](https://developer.apple.com/saf
 Safari | iOS | ❌ | ✅ | Partial Supported
 Chrome | macOS | ✅ | ✅ | Fully Supported
 Chrome | iOS | ❌ | ✅ | Partial Supported
-Chrome | Android |  ✅ | ✅ | Fully Supported
+Chrome | Android |  ❌ | ✅ | Partially Supported
 Firefox | macOS | ❌ | ✅ | [Partial Supported](https://bugzilla.mozilla.org/show_bug.cgi?id=1244460)
+Silk | FireOS | ❌ | ✅ | Partial Supported
 
 ### Notes
 https://caniuse.com/#feat=speech-recognition is the most accurate browser support matrix, but it's incomplete for mobile browsers.
@@ -36,6 +37,8 @@ Safari docs say that Web Speech API is fully supported, but that is a lie.
 Most places say Firefox supports Web Speech API, but that is a lie too.
 
 Chrome [probably uses a Google ASR service](https://www.chromium.org/developers/how-tos/api-keys). However, a Chromium contributor warns that there is discussion about [deprecating Web Speech API](https://groups.google.com/a/chromium.org/d/msg/chromium-dev/mUe4NM5xEzk/fL0pIvEACQAJ).
+
+Chrome on Android/FireOS probably works, but more debugging needed.
 
 ## Backend
 
