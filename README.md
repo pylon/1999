@@ -25,6 +25,7 @@ Safari | macOS | ❌ | ✅ | [Partial Supported](https://developer.apple.com/saf
 Safari | iOS | ❌ | ✅ | Partial Supported
 Chrome | macOS | ✅ | ✅ | Fully Supported
 Chrome | iOS | ❌ | ✅ | Partial Supported
+Chrome | Android |  ✅ | ✅ | Fully Supported
 Firefox | macOS | ❌ | ✅ | [Partial Supported](https://bugzilla.mozilla.org/show_bug.cgi?id=1244460)
 
 ### Notes
