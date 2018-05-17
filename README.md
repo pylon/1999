@@ -4,6 +4,8 @@ I don&#39;t wanna die /
 I&#39;d rather dance my life away 1999 /
 Listen to what I&#39;m tryin&#39; to say...](https://genius.com/3870836/Prince-1999/We-could-all-die-any-day-1999-i-dont-wanna-die-id-rather-dance-my-life-away-1999-listen-to-what-im-tryin-to-say)
 
+A simple copycat web app that will listen for what you say and repeat it back.
+
 ## Run
 
 ```
